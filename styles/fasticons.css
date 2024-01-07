@@ -1,0 +1,108 @@
+:root {
+  /* Settings */
+  --icon-size: 32px;
+  --default-icon-color: gray;
+  /* END Settings */
+}
+
+.icon {
+  display: inline-block;
+  min-width: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 32px;
+  overflow: hidden;
+  fill: var(--default-icon-color);
+}
+
+.icon svg {
+  width: calc(var(--icon-size) + var(--icon-size) / 6);
+  height: calc(var(--icon-size) + var(--icon-size) / 6);
+  margin-left: calc(0px - (var(--icon-size)) / 6 / 2);
+  margin-top: calc(0px - (var(--icon-size)) / 6 / 2);
+}
+
+.icon.pinterest svg {
+  width: calc(var(--icon-size) + var(--icon-size) / 4);
+  height: calc(var(--icon-size) + var(--icon-size) / 4);
+  margin-left: calc(0px - var(--icon-size) / 4 / 2);
+  margin-top: calc(0px - var(--icon-size) / 4 / 2);
+}
+
+.icon.is-rounded {
+  border-radius: 4px;
+}
+
+.icon.is-rounded-more {
+  border-radius: 8px;
+}
+
+.icon.is-circle {
+  border-radius: 50%;
+}
+
+.icon.is-circle svg {
+  width: calc(var(--icon-size) + var(--icon-size) / 8.5);
+  height: calc(var(--icon-size) + var(--icon-size) / 8.5);
+  margin-left: calc(0px - var(--icon-size) / 8 / 2);
+  margin-top: calc(0px - var(--icon-size) / 8 / 2);
+}
+
+.icon.is-circle.linkedin svg,
+.icon.is-circle.youtube svg {
+  width: calc(var(--icon-size) + var(--icon-size) / 12);
+  height: calc(var(--icon-size) + var(--icon-size) / 12);
+  margin-left: calc(0px - var(--icon-size) / 12 / 2);
+  margin-top: calc(0px - var(--icon-size) / 12 / 2);
+}
+
+.icon.is-circle.pinterest svg {
+  width: calc(var(--icon-size) + var(--icon-size) / 4);
+  height: calc(var(--icon-size) + var(--icon-size) / 4);
+  margin-left: calc(0px - var(--icon-size) / 4 / 2);
+  margin-top: calc(0px - var(--icon-size) / 4 / 2);
+}
+
+.icon.reddit {
+  fill: #ff4500;
+}
+
+.icon.snapchat {
+  fill: #000;
+}
+
+.icon.facebook {
+  fill: #4267b2;
+}
+
+.icon.twitter {
+  fill: #1da1f2;
+}
+
+.icon.instagram {
+  fill: #f00074;
+}
+
+.icon.github {
+  fill: #231f20;
+}
+
+.icon.linkedin {
+  fill: #2867b2;
+}
+
+.icon.whatsapp {
+  fill: #4ac959;
+}
+
+.icon.vimeo {
+  fill: #1ab7ea;
+}
+
+.icon.youtube {
+  fill: red;
+}
+
+.icon.pinterest {
+  fill: #e60023;
+}
