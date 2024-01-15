@@ -1,9 +1,7 @@
-# pacmen
-Factory for making pacmen
-You are given a starter.html code.
-When button "make one" is pressed you need to complete the code 
-to position the new pacman image and add it to the "game" div. It is then added to the array of pacmen, which keeps track of the position and velocity of each pacman.
-You also need to make each pacman bounce off any wall it hits. 
-Start by getting at least one pacman positioned and viewable. 
-
-<img src="PacMan1.png">
+# PacMen Exercise
+## Descripción
+PacMen Exercise es una aplicación web que permite crear personajes de Pacman en posiciones aleatorias haciendo clic en el botón "Add PacMan". Al hacer clic en "Start Game" todos los personajes creados empezarán a moverse por la pantalla de pruebas rebotando en las paredes y cambiando su dirección
+## Cómo usarlo
+Descargar todo el arbol incluida la carpeta "images" y abrir el archivo index.html en un navegador.
+## Futuras mejoras
+Actualmente se está revisando la posibilidad de incluir colisiones entre los Pacman para recalcular las direcciones dependiendo del tipo de choque entre dos personajes.
