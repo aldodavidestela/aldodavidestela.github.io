@@ -149,10 +149,12 @@ body {
 
   a:link { 
     text-decoration: none; 
+    
   } 
   
   a:visited { 
     text-decoration: none; 
+    
   }
 
   .link-project {
@@ -168,6 +170,13 @@ body {
     color: #fff;
     border-bottom-color: #fff;
   }
+
+  .wrapper_index {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 50% 2% 45% 1fr;
+    grid-template-rows: 1fr;
+  }  
 
 
   .wrapper {
@@ -188,14 +197,21 @@ body {
     /*background-color: #ffffff;*/
   }
   
+  .grid-der-index {
+    grid-area: 1 / 2 / 1 / 4;
+    align-items: center;
+    vertical-align: middle;
+    align-self: center;
+    /*background-color: #ffffff;*/
+  }
+
   .explanation {
     font-size: 100%;
     display:none;
   }
 
   .lead:link{
-    color: #ffffff;
-    
+    color: #ffffff; 
   }
   .lead:visited{
     color: #ffffff;
